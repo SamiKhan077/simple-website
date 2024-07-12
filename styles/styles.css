@@ -117,8 +117,10 @@ z-index: 100;
     position: relative;
     font-size: 16px;
     margin: 10px 0px 40px;
+    font-size: 15px;
+    color: #a400f0;
 }
-.home-content p ::before{
+.home-content p ::before {
     content: '';
     position: absolute;
     top: 0;
@@ -150,7 +152,7 @@ z-index: 100;
     border: 2px solid #00abf0 ;
     border-radius: 8px;
     font-size: 19px;
-    color: #081b29;
+    color: #e9d981;
     text-decoration: none;
     font-weight: 600;
     letter-spacing: 1px;
@@ -172,7 +174,7 @@ z-index: 100;
 }
 
 .btn-box a:nth-child(2):hover{
-    color: #081b29;
+    color: #e0d67b;
 }
 
 .btn-box a:nth-child(2)::before{
@@ -186,7 +188,7 @@ z-index: 100;
     left: 0;
     width: 0;
     height: 100%;
-    background:#081b29;
+    background:#f7f5a4;
     z-index: -1;
     transition: .5s;
 }
