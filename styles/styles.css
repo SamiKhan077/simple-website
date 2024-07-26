@@ -12,9 +12,8 @@ body{
 
 }
 
-.header{
-    position: fixed
-;
+.header {
+position: fixed;
 top: 0;
 left: 0;
 left: 0;
@@ -118,7 +117,7 @@ z-index: 100;
     font-size: 16px;
     margin: 10px 0px 40px;
     font-size: 15px;
-    color: #a400f0;
+    color: rgb(10, 2, 46);
 }
 .home-content p ::before {
     content: '';
@@ -245,7 +244,7 @@ z-index: 100;
 }
 
 
-/* KEYFRAME ANIMATIO */
+/* KEYFRAME ANIMATION */
 @keyframes showRight {
     100%{
         width: 0;
